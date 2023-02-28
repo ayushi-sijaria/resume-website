@@ -1,0 +1,93 @@
+@import "./style/variable.scss";
+
+body {
+  margin-top: 0;
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #40514e;
+}
+h1 {
+  margin-top: 50px;
+  font-family: satisfy, serif;
+  font-size: 5.625rem;
+  color: #66bfbf;
+  line-height: 2;
+}
+h2 {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #66bfbf;
+  font-weight: normal;
+}
+h3 {
+  color: #0c6d70;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #d6faee;
+}
+a {
+  color: #11999e;
+  text-decoration: none;
+}
+hr {
+  border: dotted #eaf6 6px;
+  border-bottom: none;
+  width: 10%;
+}
+#top-cloud {
+  position: absolute;
+  right: 180px;
+  top: 50px;
+}
+#bottom-cloud {
+  position: absolute;
+  left: 150px;
+  bottom: 300px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+.image1 {
+  width: 35%;
+  float: left;
+  margin-right: 1rem;
+}
+.image2 {
+  width: 35%;
+  float: right;
+  margin-left: 2rem;
+}
+.intro {
+  margin: 25px auto;
+  width: 45%;
+}
+.bottom-container {
+  padding-top: 5px;
+  margin-top: 10px;
+  background-color: #66bfbf;
+}
+.footer-link:hover {
+  color: #263131;
+}
+.copyright {
+  color: #263131;
+  size: 0.5rem;
+}
+
+/* .skill-desc1
+{
+     clear: left;
+}
+.skill-desc2
+{
+     clear: right;
+} */
