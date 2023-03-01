@@ -1,0 +1,79 @@
+@import "./assets/style.scss";
+body {
+  font-size: 16px;
+  @media (min-width: "786px") {
+    font-size: 18px;
+  }
+  @media (min-width: "1024px") {
+    font-size: 24px;
+  }
+}
+.gradient-background {
+  height: 100px;
+  background: rgb(20, 122, 134);
+  background: linear-gradient(
+    180deg,
+    rgba(20, 122, 134, 1) 55%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.height-100-vh {
+  height: 100vh;
+}
+.introduction {
+  p {
+    font-family: Tilt-Wrap;
+    font-size: 2rem;
+  }
+  .name {
+    font-size: 4rem;
+  }
+  .designation {
+    font-family: Climate-Crisis;
+    font-size: 28px;
+  }
+}
+.about-me {
+  font-size: 1.25rem;
+  margin-bottom: 4rem;
+  li {
+    margin-top: 1rem;
+  }
+}
+.skills {
+  font-size: 1.25rem;
+  margin-bottom: 4rem;
+  li {
+    margin-top: 1rem;
+  }
+}
+.my-work {
+  font-size: 1.25rem;
+  margin-bottom: 4rem;
+  li {
+    margin-top: 1rem;
+    li {
+      margin: 0;
+    }
+  }
+}
+.certificates {
+  font-size: 1.25rem;
+  margin-bottom: 4rem;
+  li {
+    margin-top: 1rem;
+    li {
+      margin: 0;
+    }
+  }
+}
+.academic-details {
+  font-size: 1.25rem;
+  margin-bottom: 4rem;
+  li {
+    margin-top: 1rem;
+    li {
+      margin: 0;
+    }
+  }
+}
